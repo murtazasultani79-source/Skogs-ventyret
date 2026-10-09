@@ -26,7 +26,7 @@
             }
             Console.WriteLine("0) Leave Shop");
 
-            string choice = Console.ReadLine();
+            string choice = Console.ReadLine() ?? "";
 
             if (choice == "0")
             {
