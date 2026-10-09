@@ -1,6 +1,6 @@
 ﻿
 Console.WriteLine("What's your name?");
-string playerName = Console.ReadLine();
+string playerName = Console.ReadLine() ?? "";
 Player player = new Player(playerName, 30, 20, 15);
 
 int day = 1;
