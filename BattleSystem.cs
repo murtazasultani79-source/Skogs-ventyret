@@ -12,7 +12,7 @@
             Console.WriteLine("2) Defend");
             Console.WriteLine("3) Run");
 
-            string choice = Console.ReadLine();
+            string choice = Console.ReadLine() ?? "";
 
             if (choice == "1")
             {
