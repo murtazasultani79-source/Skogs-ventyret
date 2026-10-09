@@ -18,7 +18,7 @@ while (playing)
     Console.WriteLine("4) Visit the weapons shop");
 
 
-    string playingChoice = Console.ReadLine();
+    string playingChoice = Console.ReadLine() ?? "";
 
     if (playingChoice == "1") // Go into forest --> battle
     {
